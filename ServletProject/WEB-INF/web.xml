@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0"> 
+    <servlet>
+        <servlet-name>saveRole</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.RoleController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>saveRole</servlet-name>  
+        <url-pattern>/save-role</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>createRole</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.RoleController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>createRole</servlet-name>  
+        <url-pattern>/create-role</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>displayRole</servlet-name>
+        <servlet-class>com.ideas2it.onlineshopping.RoleController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>displayRole</servlet-name>  
+        <url-pattern>/display-role</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateRole</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.RoleController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>updateRole</servlet-name>  
+        <url-pattern>/update-role</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>editRole</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.RoleController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>editRole</servlet-name>  
+        <url-pattern>/edit-role</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteRole</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.RoleController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>deleteRole</servlet-name>  
+        <url-pattern>/delete-role</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>createUser</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.UserController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>createUser</servlet-name>  
+        <url-pattern>/create-user</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>saveUser</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.UserController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>saveUser</servlet-name>  
+        <url-pattern>/save-user</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>displayUser</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.UserController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>displayUser</servlet-name>  
+        <url-pattern>/display-user</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>editUser</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.UserController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>editUser</servlet-name>  
+        <url-pattern>/edit-user</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateUser</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.UserController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>updateUser</servlet-name>  
+        <url-pattern>/update-user</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteUser</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.UserController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>deleteUser</servlet-name>  
+        <url-pattern>/delete-user</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>createProduct</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.ProductController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>createProduct</servlet-name>  
+        <url-pattern>/create-product</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>saveProduct</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.ProductController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>saveProduct</servlet-name>  
+        <url-pattern>/save-product</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>displayProduct</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.ProductController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>displayProduct</servlet-name>  
+        <url-pattern>/display-product</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>editProduct</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.ProductController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>editProduct</servlet-name>  
+        <url-pattern>/edit-product</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateProduct</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.ProductController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>updateProduct</servlet-name>  
+        <url-pattern>/update-product</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteProduct</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.ProductController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>deleteProduct</servlet-name>  
+        <url-pattern>/delete-product</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>createCart</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.CartController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>createCart</servlet-name>  
+        <url-pattern>/create-cart</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>saveCart</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.CartController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>saveCart</servlet-name>  
+        <url-pattern>/save-cart</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>displayCart</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.CartController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>displayCart</servlet-name>  
+        <url-pattern>/display-cart</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>editCart</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.CartController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>editCart</servlet-name>  
+        <url-pattern>/edit-cart</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateCart</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.CartController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>updateCart</servlet-name>  
+        <url-pattern>/update-cart</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteCart</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.CartController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>deleteCart</servlet-name>  
+        <url-pattern>/delete-cart</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>createOrder</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.OrderController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>createOrder</servlet-name>  
+        <url-pattern>/create-order</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>displayOrder</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.OrderController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>displayOrder</servlet-name>  
+        <url-pattern>/display-order</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteOrder</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.OrderController</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>deleteOrder</servlet-name>  
+        <url-pattern>/delete-order</url-pattern>  
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>logout</servlet-name>  
+        <servlet-class>com.ideas2it.onlineshopping.Logout</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>logout</servlet-name>  
+        <url-pattern>/logout</url-pattern>  
+    </servlet-mapping>
+
+    <listener>
+        <listener-class>
+            com.ideas2it.onlineshopping.listener.MyAppServletContextListener
+        </listener-class>
+    </listener>
+
+    <context-param>
+        <param-name>log4j-config-location</param-name>
+        <param-value>WEB-INF/classes/com/ideas2it/onlineshopping/resources/log4j.xml</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>login</servlet-name>  
+        <jsp-file>/Mainmenu.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>  
+        <servlet-name>login</servlet-name>  
+        <url-pattern>/user-login</url-pattern>
+    </servlet-mapping>  
+    
+    <filter>  
+        <filter-name>userLogin</filter-name>  
+        <filter-class>com.ideas2it.onlineshopping.filter.LoginFilter</filter-class>  
+    </filter>  
+    <filter-mapping>  
+        <filter-name>userLogin</filter-name>  
+        <url-pattern>/user-login</url-pattern>  
+    </filter-mapping>
+
+    <filter>
+        <filter-name>accessFilter</filter-name>
+        <filter-class>com.ideas2it.onlineshopping.filter.AccessRestrictionFilter</filter-class>
+        <init-param>
+            <param-name>excludedUrls</param-name>
+            <param-value>/save-role,/create-role,/display-role,/update-role,/edit-role,/delete-role,/create-user,/save-user,/display-user,/edit-user,/update-user,/delete-user,/create-product,/save-product,/edit-product,/update-product,/delete-product</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping> 
+        <filter-name>accessFilter</filter-name>  
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+</web-app>
